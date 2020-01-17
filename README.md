@@ -24,3 +24,7 @@ Build and Deployment | [MAINTENANCE](MAINTENANCE.md)
 
 We have an automated build script via Gradle that includes upload to JetBrains plugin repository see [MAINTENANCE.md](MAINTENANCE.md) for details 
 
+
+## Screenshots
+
+![XLF Navigation](https://plugins.jetbrains.com/files/13673/screenshot_20927.png)
