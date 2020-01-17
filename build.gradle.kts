@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "de.espend.idea.localization"
-version = "0.0.1"
+version = "0.0.2"
 
 repositories {
     mavenCentral()
@@ -14,10 +14,6 @@ dependencies {
     testCompile("junit", "junit", "4.12")
 }
 
-// See https://github.com/JetBrains/gradle-intellij-plugin/
-intellij {
-    version = "2019.2.4"
-}
 configure<JavaPluginConvention> {
     sourceCompatibility = JavaVersion.VERSION_1_8
 }
