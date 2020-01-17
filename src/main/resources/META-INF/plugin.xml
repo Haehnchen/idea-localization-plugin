@@ -1,14 +1,25 @@
 <idea-plugin>
-    <id>de.espend.idea.localization/id>
+    <id>de.espend.idea.localization</id>
     <version>0.0.1</version>
     <name>Localization</name>
     <vendor email="daniel@espendiller.net" url="https://espend.de/?p=de.espend.idea.localization">Daniel Espendiller</vendor>
 
     <description><![CDATA[
     Extended translation / localization support for xlf, xliff
+
+          <br/>
+      <a href="https://github.com/Haehnchen/idea-localization-plugin/issues">Issues</a> | <a href="https://www.paypal.me/DanielEspendiller">Donate</a>
+
+      <h2>Features</h2>
+      <ul>
+        <li>Register xlf and xliff as XML file type to provide navigation for <a href="https://plugins.jetbrains.com/plugin/7219-symfony-support/">Symfony Plugin</a></li>
+      </ul>
+
     ]]></description>
 
-    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.platform</depends>
+
+    <idea-version since-build="192.0"/>
 
     <extensions defaultExtensionNs="com.intellij">
         <fileType name=".xlf file" extensions="xlf;xliff" patterns=".xlf.*;.xliff.*" fieldName="INSTANCE" language="XML"

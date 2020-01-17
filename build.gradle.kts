@@ -21,8 +21,9 @@ intellij {
 configure<JavaPluginConvention> {
     sourceCompatibility = JavaVersion.VERSION_1_8
 }
+
 tasks.getByName<org.jetbrains.intellij.tasks.PatchPluginXmlTask>("patchPluginXml") {
-    changeNotes("""
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>""")
+    // changeNotes("""Add change notes here.<br><em>most HTML tags may be used</em>""")
+
+    sinceBuild("192.0")
 }
