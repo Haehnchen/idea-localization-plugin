@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>de.espend.idea.localization/id>
+    <version>0.0.1</version>
+    <name>Localization</name>
+    <vendor email="daniel@espendiller.net" url="https://espend.de/?p=de.espend.idea.localization">Daniel Espendiller</vendor>
+
+    <description><![CDATA[
+    Extended translation / localization support for xlf, xliff
+    ]]></description>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <fileType name=".xlf file" extensions="xlf;xliff" patterns=".xlf.*;.xliff.*" fieldName="INSTANCE" language="XML"
+                  implementationClass="com.intellij.ide.highlighter.XmlFileType"/>
+    </extensions>
+
+    <actions>
+    </actions>
+</idea-plugin>
