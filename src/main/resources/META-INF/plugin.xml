@@ -22,8 +22,8 @@
     <idea-version since-build="192.0"/>
 
     <extensions defaultExtensionNs="com.intellij">
-        <fileType name="XML" extensions="xlf;xliff" patterns=".xlf.*;.xliff.*" fieldName="INSTANCE" language="XML"
-                  implementationClass="com.intellij.ide.highlighter.XmlFileType"/>
+        <fileType name="XLF" extensions="xlf;xliff" patterns=".xlf.*;.xliff.*" fieldName="INSTANCE" language="XML"
+                  implementationClass="de.espend.idea.localization.XlfFileType"/>
     </extensions>
 
     <actions>
