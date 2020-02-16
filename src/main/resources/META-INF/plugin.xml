@@ -22,7 +22,7 @@
     <idea-version since-build="192.0"/>
 
     <extensions defaultExtensionNs="com.intellij">
-        <fileType name=".xlf file" extensions="xlf;xliff" patterns=".xlf.*;.xliff.*" fieldName="INSTANCE" language="XML"
+        <fileType name="XML" extensions="xlf;xliff" patterns=".xlf.*;.xliff.*" fieldName="INSTANCE" language="XML"
                   implementationClass="com.intellij.ide.highlighter.XmlFileType"/>
     </extensions>
 
