@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>de.espend.idea.localization</id>
-    <version>0.0.4</version>
+    <version>0.0.6</version>
     <name>Localization</name>
     <vendor email="daniel@espendiller.net" url="https://espend.de/?p=de.espend.idea.localization">espend_de</vendor>
 
@@ -19,7 +19,7 @@
 
     <depends>com.intellij.modules.platform</depends>
 
-    <idea-version since-build="192.0"/>
+    <idea-version since-build="202.0"/>
 
     <extensions defaultExtensionNs="com.intellij">
         <fileType name="XLF" extensions="xlf;xliff" patterns=".xlf.*;.xliff.*" fieldName="INSTANCE" language="XML"

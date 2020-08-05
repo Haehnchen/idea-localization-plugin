@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "de.espend.idea.localization"
-version = "0.0.2"
+version = "0.0.6"
 
 repositories {
     mavenCentral()
@@ -16,10 +16,16 @@ dependencies {
 
 configure<JavaPluginConvention> {
     sourceCompatibility = JavaVersion.VERSION_1_8
+
 }
+
+intellij {
+    updateSinceUntilBuild = false
+}
+
 
 tasks.getByName<org.jetbrains.intellij.tasks.PatchPluginXmlTask>("patchPluginXml") {
     // changeNotes("""Add change notes here.<br><em>most HTML tags may be used</em>""")
 
-    sinceBuild("192.0")
+    sinceBuild("202.0")
 }
